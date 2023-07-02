@@ -15,7 +15,7 @@ public class ContractService implements OnlinePaymentService {
 	}
 
 	public void processContract(Contract contract, int months) {
-		
+		double initialValue = contract.getTotalValue() / months;
 	}
 	
 	@Override
